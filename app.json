@@ -1,0 +1,37 @@
+{
+  "name": "whatsapp-research-bot",
+  "description": "Modular WhatsApp bot built for research and testing",
+  "keywords": ["whatsapp", "bot", "research"],
+  "env": {
+    "BOT_NAME": {
+      "description": "Name of the bot",
+      "required": false,
+      "value": "Research-Bot"
+    },
+    "PREFIX": {
+      "description": "Command prefix",
+      "required": false,
+      "value": "."
+    },
+    "MODE": {
+      "description": "Bot mode (self, private, public)",
+      "required": false,
+      "value": "self"
+    },
+    "ONLY_ME": {
+      "description": "Only allow your own messages to trigger commands (true/false)",
+      "required": false,
+      "value": "true"
+    },
+    "OWNER_NUMBER": {
+      "description": "Your phone number with country code, no + (e.g. 15551234567)",
+      "required": false,
+      "value": ""
+    },
+    "PORT": {
+      "description": "Health server port",
+      "required": false,
+      "value": "9090"
+    }
+  }
+}
